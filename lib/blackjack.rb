@@ -24,8 +24,11 @@ def end_game(num)
   puts "Sorry, you hit #{num}. Thanks for playing!"
 end
 
-def initial_round
-  # code #initial_round here
+def initial_round(first, second)
+  deal_card(first)
+  deal_card(second)
+  display_card_total(first,second)
+  return num
 end
 
 def hit?
