@@ -35,18 +35,20 @@ end
 def hit?(total)
   prompt_user
   turn = get_user_input
-  if turn == "s"
-    total
-  elsif turn =="s"
+  if turn == "h"
     total += deal_card
-  else
+  elsif turn != "s" && turn != "h"
     invalid_command
+    prompt_user
+    turn = get_user_input
+  else
+    total
   end
 end
 
 def invalid_command
   puts "Please enter a valid command"
-  # prompt_user
+  prompt_user
 end
 
 #####################################################
