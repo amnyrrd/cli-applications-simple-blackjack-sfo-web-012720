@@ -47,9 +47,9 @@ end
 
 def invalid_command
   if get_user_input !"h" || !"s"
-puts "Please enter a valid command"
-prompt_user
-get_user_input
+    puts "Please enter a valid command"
+    prompt_user
+    get_user_input
 end
 
 #####################################################
