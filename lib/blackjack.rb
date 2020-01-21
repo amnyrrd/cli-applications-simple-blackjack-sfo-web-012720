@@ -36,7 +36,7 @@ def hit?(total)
   prompt_user
   turn = get_user_input
   if turn == "h"
-    card_total 
+    total + deal_card 
 end
 
 def invalid_command
