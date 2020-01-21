@@ -4,7 +4,7 @@ def welcome
 end
 
 def deal_card
-  card = rand(1..11)
+  card = Random.rand(1..11)
   puts card
 end
 
