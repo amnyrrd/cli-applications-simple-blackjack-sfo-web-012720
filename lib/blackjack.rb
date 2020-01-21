@@ -4,7 +4,8 @@ def welcome
 end
 
 def deal_card
-  card = # code #deal_card here
+  card = rand(1..11)
+  puts card
 end
 
 def display_card_total
