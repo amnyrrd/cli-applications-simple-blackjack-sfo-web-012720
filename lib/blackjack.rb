@@ -35,7 +35,8 @@ end
 def hit?(total)
   prompt_user
   turn = get_user_input
-  if 
+  if turn == "h"
+    
 end
 
 def invalid_command
