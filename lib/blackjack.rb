@@ -8,8 +8,8 @@ def deal_card
   return card
 end
 
-def display_card_total
-  # code #display_card_total here
+def display_card_total(num)
+  puts "Your cards add up to #{num}"
 end
 
 def prompt_user
