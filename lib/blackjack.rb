@@ -45,7 +45,7 @@ def hit?(total)
 end
 
 def invalid_command
-  p "Please enter a valid command"
+  puts "Please enter a valid command"
   # prompt_user
 end
 
