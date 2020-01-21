@@ -55,8 +55,8 @@ end
 #####################################################
 
 def runner
-  prompt_user
-  initial_round
+  welcome
+  total = initial_round
   hit?(total)
   hit?
   hit?
