@@ -49,6 +49,7 @@ def invalid_command
   if get_user_input != "s" or "h"  
     puts "Please enter a valid command"
     prompt_user
+  end
 end
 
 #####################################################
