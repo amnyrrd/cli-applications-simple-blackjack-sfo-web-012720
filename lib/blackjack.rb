@@ -43,7 +43,6 @@ def hit?(total)
     invalid_command
     prompt_user
   end
-  
 end
 
 def invalid_command
@@ -55,6 +54,10 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  prompt_user
+  initial_round
+  hit?(total)
+  hit?
+  hit?
 end
     
