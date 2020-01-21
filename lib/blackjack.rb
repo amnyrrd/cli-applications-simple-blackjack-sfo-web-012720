@@ -35,10 +35,10 @@ end
 def hit?(total)
   prompt_user
   turn = get_user_input
-  if turn == "h"
-    total += deal_card
-  elsif turn =="s"
+  if turn == "s"
     total
+  elsif turn =="s"
+    total += deal_card
   else
     invalid_command
   end
